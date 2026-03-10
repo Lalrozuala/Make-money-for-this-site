@@ -1,3 +1,26 @@
+<link rel="manifest" href="manifest.json">
+{
+  "short_name": "PixelPulse",
+  "name": "PixelPulse Gaming Hub",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/Make-money-for-this-site/index.html",
+  "background_color": "#121212",
+  "display": "standalone",
+  "scope": "/Make-money-for-this-site/",
+  "theme_color": "#00ff88",
+  "description": "Play the best web games instantly on PixelPulse."
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
