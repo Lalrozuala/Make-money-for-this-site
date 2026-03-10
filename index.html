@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PixelPulse | Web Gaming</title>
+    <title>PixelPulse Gaming</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <nav>
@@ -13,20 +13,19 @@
         <ul>
             <li>Home</li>
             <li>Top Rated</li>
-            <li>New Releases</li>
         </ul>
     </nav>
 
     <main id="game-container">
-        <div class="game-card" onclick="startGame('dodger')">
+        <div class="game-card">
             <div class="thumbnail">🟦</div>
             <div class="info">
                 <h3>Square Dodger</h3>
                 <p>Avoid the red blocks!</p>
-                <button>Play Now</button>
+                <button onclick="startGame()">Play Now</button>
             </div>
         </div>
-        </main>
+    </main>
 
     <div id="game-modal" class="hidden">
         <button id="close-btn" onclick="closeGame()">× Close</button>
